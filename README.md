@@ -1,4 +1,4 @@
 # FileHost
-Just some garbage API I made to learn about ASP.NET core.
+A program I made in ASP.NET core to store files.
 
 there is no ratelimit and I do not plan on adding one :thumbsup:
