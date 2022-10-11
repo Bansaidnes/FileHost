@@ -14,7 +14,7 @@ builder.Services.AddCors(options =>
     options.AddDefaultPolicy(
         builder =>
         {
-            builder.WithOrigins("https://localhost:7218", "https://bansaidnes.me", "https://vpn.bansaidnes.me", "https://localhost", "https://localhost")
+            builder.WithOrigins("*")
             .AllowAnyHeader().AllowAnyMethod();
         }
         );
